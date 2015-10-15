@@ -4,7 +4,7 @@ Lightweight jQuery extension for modifying scrolling speed in modern web browser
 ## Installation
 Installation via bower:
 ```bash
-bower install jquery.scrollspeed
+bower install jquery-scrollspeed
 ```
 
 After what include the latest version of [jQuery](http://jquery.com/download) and `jQuery.scrollSpeed.min.js` in the `<head>` of your HTML document:
