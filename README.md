@@ -2,10 +2,15 @@
 Lightweight jQuery extension for modifying scrolling speed in modern web browsers. Supports vertical or horizontal scrolling direction, including user-defined easing.
 
 ## Installation
-Include the latest version of [jQuery](http://jquery.com/download) and `jQuery.scrollSpeed.js` in the `<head>` of your HTML document:
+Installation via bower:
+```bash
+bower install jquery.scrollspeed
+```
+
+After what include the latest version of [jQuery](http://jquery.com/download) and `jQuery.scrollSpeed.min.js` in the `<head>` of your HTML document:
 ```html
 <script src="jQuery.min.js"></script>  
-<script src="jQuery.scrollSpeed.js"></script>
+<script src="jQuery.scrollSpeed.min.js"></script>
 ```
 ## How to Use
 Reference the `scrollSpeed()` method and modify the `step` and `speed` parameters to create the desired scrolling effect. The `step` parameter defaults to `100` units, while `speed` defaults to `800` milliseconds; custom easing is optional. See the live demo: [code.bynathan.com/scrollSpeed](http://code.bynathan.com/scrollSpeed)
